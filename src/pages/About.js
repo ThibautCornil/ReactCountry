@@ -4,40 +4,18 @@ import Navigation from "../components/Navigation";
 
 const About = () => {
     return (
-        <div>
+        <div className="box">
             <Logo />
             <Navigation />
             <h1>A propos</h1>
             <br />
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque natus
-            inventore molestiae iste aliquid quasi non iure repellat recusandae
-            dolorum eum, numquam distinctio laborum facere voluptas pariatur officia
-            voluptate dignissimos cupiditate modi neque nulla enim. Ipsam, ad, animi
-            voluptatibus nam sapiente similique asperiores pariatur, reprehenderit
-            delectus vitae nostrum eaque praesentium quaerat excepturi nisi fugit
-            autem totam. Debitis dolores ab dolor est, voluptatum totam illum rem
-            aperiam officiis assumenda ducimus aliquam in distinctio eius eligendi nam
-            eum. Dolores officiis minima id odio at, delectus numquam sapiente? Libero
-            quisquam voluptate neque magnam, provident id. Assumenda, temporibus illum
-            magnam vitae aperiam facere quisquam! Inventore eaque nam non? Expedita
-            molestias magnam sunt labore est nostrum iure amet tenetur fugiat, a eius
-            eos quam, voluptatibus incidunt. Quae quos, minima quidem consequatur
-            architecto earum corrupti. Sequi, accusantium! Suscipit dicta similique,
-            laboriosam eos consectetur amet dignissimos aspernatur, eius reiciendis
-            nisi accusantium quaerat ea quo consequatur odit nobis quidem beatae
-            dolorem, sapiente a ad laborum expedita voluptatem ex! Veritatis a labore
-            dolore enim magni, rem vero perspiciatis commodi, incidunt excepturi amet
-            voluptatum deserunt tempora aliquam consequuntur? Mollitia qui non
-            corporis error sint beatae saepe vitae aliquam, sequi quod accusamus porro
-            et officiis reprehenderit cumque laboriosam dolorum animi nisi?
+            Ce site a été développé avec React, il répertorie les pays du monde entier, lorsqu'on survole la drapeau d'un pays nous avons les informations, du nom du pays, de sa capitale, ainsi que du nombre d'habitants. Il y a la possibilité d'augmenter le nombre de drapeau visible avec la barre sur la gauche, de selectionner un continent avec les boutons "radios".
             <br />
             <br />
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic veniam
-            laudantium distinctio, quo adipisci mollitia maxime modi aut asperiores
-            totam quod ad molestias animi maiores. Officia placeat quasi quod itaque,
-            ipsa voluptatibus, voluptate facere dignissimos nam quo maxime rerum
-            molestias inventore ipsam, iusto animi ut? Nemo molestiae perferendis id
-            commodi?
+            A titre d'information, les pays sont triés par ordre décroissant du nombre d'habitants.
+            <br />
+            <br />
+            Pour récupérer les informations des pays j'ai utilisé l'api de REST Countries.
         </div>
     );
 };
